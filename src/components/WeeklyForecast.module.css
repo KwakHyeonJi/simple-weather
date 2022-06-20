@@ -1,0 +1,32 @@
+.list {
+  width: 650px;
+  margin-top: 15px;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 0;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.item + .item {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.item span:first-child {
+  width: 300px;
+  text-align: left;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70px;
+}
