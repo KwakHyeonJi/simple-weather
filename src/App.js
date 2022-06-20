@@ -6,7 +6,7 @@ import Main from "./components/Main";
 import TempChart from "./components/TempChart";
 import WeeklyForcast from "./components/WeeklyForecast";
 
-const key = "86b617585174aaa80fd2778ccbcaaf74";
+const key = "";
 
 const App = () => {
   const [data, setData] = useState({});
